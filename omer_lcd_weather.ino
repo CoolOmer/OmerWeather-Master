@@ -3,7 +3,9 @@
  *  Date: January 12th, 2024
  *  Description: Onto the next part! After my first sketch worked,
  *  I made this duplicate of my initial sketch BUT this time the DHT11
- *  will print the temps and humidity levels to my LCD 16x2 display!
+ *  will print the temps and humidity levels to my LCD 16x2 display! I
+ *  also heavily modified this program to include an "alarm" whenever
+ *  any of the following conditions are true (see "if" and "else if" below).
  */
 
 // Include libraries and define
