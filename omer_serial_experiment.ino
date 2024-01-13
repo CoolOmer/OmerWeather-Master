@@ -35,10 +35,9 @@ void loop() {
  
   float h = dht.readHumidity();
   float t = dht.readTemperature();
-  float f = dht.readTemperature(true);
   
 
-  if (isnan(h) || isnan(t) || isnan(f)) {                 // This will essentially notify me that
+  if (isnan(h) || isnan(t)) {                             // This will essentially notify me that
     Serial.println("Uh-oh, can't read anything ...");     // there's some issue reading from the
     return;                                               // the sensor, if everything equals to zero.
   }
