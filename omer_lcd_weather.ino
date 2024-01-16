@@ -59,7 +59,7 @@ void loop() {
 
   lcd.setCursor(0, 1);
   lcd.print(t);
-  lcd.print(" C");
+  lcd.print(" C ");
 
   // **************************************
   // ***** ALL POSSIBLE CONDITIONS ***** //
@@ -69,11 +69,11 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print(h);
     lcd.print(" % ");
-    lcd.print(" Too Humid!");
+    lcd.print("Too Humid!");
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
+    lcd.print(" C ");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -86,11 +86,11 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print(h);
     lcd.print(" % ");
-    lcd.print(" Too Dry!");
+    lcd.print("Too Dry!");
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
+    lcd.print(" C ");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -106,8 +106,8 @@ void loop() {
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
-    lcd.print(" Too Cold! ");
+    lcd.print(" C ");
+    lcd.print("Too Cold!");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -123,8 +123,8 @@ void loop() {
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
-    lcd.print(" Too Hot! ");
+    lcd.print(" C ");
+    lcd.print("Too Hot!");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -137,12 +137,12 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print(h);
     lcd.print(" % ");
-    lcd.print(" Too Humid! ");
+    lcd.print("Too Humid!");
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
-    lcd.print(" Too Hot! ");
+    lcd.print(" C" );
+    lcd.print("Too Hot!");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -155,12 +155,12 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print(h);
     lcd.print(" % ");
-    lcd.print(" Too Dry! ");
+    lcd.print("Too Dry!");
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
-    lcd.print(" Too Hot! ");
+    lcd.print(" C ");
+    lcd.print("Too Hot!");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -173,12 +173,12 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print(h);
     lcd.print(" % ");
-    lcd.print(" Too Dry! ");
+    lcd.print("Too Dry!");
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
-    lcd.print(" Too Cold! ");
+    lcd.print(" C ");
+    lcd.print("Too Cold!");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -191,12 +191,12 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print(h);
     lcd.print(" % ");
-    lcd.print(" Too Humid! ");
+    lcd.print("Too Humid!");
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
-    lcd.print(" Too Cold! ");
+    lcd.print(" C ");
+    lcd.print("Too Cold!");
 
     tone(humidtempBuzz, 1000);   // Send 1KHz sound signal...
     delay(500);                  // ...for 0.5 secs
@@ -212,7 +212,7 @@ void loop() {
 
     lcd.setCursor(0,1);
     lcd.print(t);
-    lcd.print(" C");
+    lcd.print(" C ");
   }
     delay(1000);
 }
